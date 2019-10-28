@@ -15,3 +15,4 @@
 - Set visualize=True to watch the agent interact with the environment<br>
 - Test the Reinforcement Learning model using .test() method to evaluate for 5 episodes<br>
 - Note that after the first 250 episodes, the total rewards for the episode approach 200 and the episode steps also approach 200. This means that the agent has learned to balance the pole on the cart until the environment ends at a maximum of 200 steps.<br>
+<img src="output.png">
