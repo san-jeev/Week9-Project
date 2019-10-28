@@ -13,5 +13,5 @@
 - Train the Reinforcement Learning DQN model using .fit() and 500 steps; Create training data through trials we run and feed this information into agent directly after running the trial.<br>
 - Rather than training on the trials as they come in, Add them to memory and train on a random sample of that memory. By taking a random sample, we don’t bias our training set, and instead ideally learn about scaling all environments we would encounter equally well.<br>
 - Set visualize=True to watch the agent interact with the environment<br>
-- Note that after the first 250 episodes, the total rewards for the episode approach 200 and the episode steps also approach 200. This means that the agent has learned to balance the pole on the cart until the environment ends at a maximum of 200 steps.<br>
 - Test the Reinforcement Learning model using .test() method to evaluate for 5 episodes<br>
+- Note that after the first 250 episodes, the total rewards for the episode approach 200 and the episode steps also approach 200. This means that the agent has learned to balance the pole on the cart until the environment ends at a maximum of 200 steps.<br>
