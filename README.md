@@ -1,7 +1,7 @@
 # Week9-Project: Develop and train a Keras-RL Reinforcement learning agent called CartPole 
 - With assistance from https://gym.openai.com/docs/; https://keon.io/deep-q-learning/; https://github.com/keon/deep-q-learning and other DQN web tutorials
 - Cart-pole problem - The CartPole environment consists of a pole, balanced on a cart. The agent has to learn how to balance the pole vertically, while the cart underneath it moves. The agent is given the position of the cart, the velocity of the cart, the angle of the pole, and the rotational rate of the pole as inputs. The agent can apply a force on either side of the cart. If the pole falls more than 15 degrees from vertical, it’s game over for our agent.<br>
-- Start with a Sequential model and build a simple 3 hidden layers neural network model with 16 neurons each that will later learn through reinforcement learning and solve the Cart-pole problem. The input is a 1 x state space vector and there will be an output neuron for each possible action that will predict the Q value of that action for each step. By taking the argmax of the outputs, choose the action with the highest Q value<br>
+- Starts with a Sequential model and build a simple 3 hidden layers neural network model with 16 neurons each that will later learn through reinforcement learning and solve the Cart-pole problem. The input is a 1 x state space vector and there will be an output neuron for each possible action that will predict the Q value of that action for each step. By taking the argmax of the outputs, choose the action with the highest Q value<br>
 - Print the model summary<br>
 - Plot the model and its Layers<br>
 - Configure appropriate CartPole-v0 Environment Variables to benchmark the ability of reinforcement learning agent<br>
