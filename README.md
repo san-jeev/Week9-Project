@@ -10,7 +10,7 @@
 - Now that we have a model and the memory (sequential) and policy (Epsilon Greedy) is defined, Create a DQN agent (Keras-RL Reinforcement learning agent) using Keras to master the CartPole-v0 environment and take several hundred episodes to eventually balance the pole<br>
 - Compile the deep Q network Agent using Adam<br>
 - Use Keras-RL callbacks that allow for convenient model checkpointing and logging.<br>
-- Train the Reinforcement Learning DQN model using .fit(); Create training data through trials we run and feed this information into agent directly after running the trial.<br>
+- Train the Reinforcement Learning DQN model using .fit() and 500 steps; Create training data through trials we run and feed this information into agent directly after running the trial.<br>
 - Rather than training on the trials as they come in, Add them to memory and train on a random sample of that memory. By taking a random sample, we don’t bias our training set, and instead ideally learn about scaling all environments we would encounter equally well.<br>
 - Set visualize=True to watch the agent interact with the environment<br>
 - Note that after the first 250 episodes, the total rewards for the episode approach 200 and the episode steps also approach 200. This means that the agent has learned to balance the pole on the cart until the environment ends at a maximum of 200 steps.<br>
